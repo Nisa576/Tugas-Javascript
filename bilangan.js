@@ -21,12 +21,3 @@ const max = Math.max(...hasil);
 const min = Math.min(...hasil);
 console.log("Nilai Min : " + min + " , Nilai Max : " + max);
 
-let nilai_min = 0;
-let nilai_max = 0;
-for (let x = 0; x < hasil.length; x++) {
-    if (nilai_max < hasil[x]) {
-        nilai_max = hasil[x];
-    }
-}
-
-console.log(nilai_max);
